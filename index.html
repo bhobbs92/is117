@@ -14,6 +14,15 @@
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
+	<div id="fb-root"></div>
+	    <script>(function(d, s, id)
+	    {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	    }(document, 'script', 'facebook-jssdk'));</script>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -47,15 +56,26 @@
 	    <div id="call">
 		    <h1>Call us now for an estimate 1-800-555-5555</h1>
 		    <p>We're dedicated to making sure your family or business is as comfortable as possible.
-		    <br>Serving Clifton and all of Northern New Jersey</br> </p>   
+		    <br><font color="green">Serving Clifton and all of Northern New Jersey</font></br> </p>   
 	    </div>
 	</div>
 	<div id="video_wrapper">
 	    <div id="video">
 		<iframe width="560" height="315" src="//www.youtube.com/embed/6PtFHHHtpYw" frameborder="0" allowfullscreen></iframe>
 	    </div>
-	    
 	</div>
+	<div id="fb_bar">
+	    <div id="logo1">
+		<img src="lightfbimg.jpg">
+	    </div>
+	    <div id="like">
+		<b>Like us on Facebook</b> for our current deals!
+	    	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-colorscheme="light"></div>
+	    </div>
+	    <div id="logo2">
+		<img src="lightfbimg.jpg">
+	    </div>
+    	</div>
 			
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
